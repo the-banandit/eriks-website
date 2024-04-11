@@ -1,11 +1,11 @@
 # Site settings
-title: Freelancer
-email: your-email@domain.com
+title: Education Frontiers
+email: contact@education-frontiers.com 
 url: https://github.com/jeromelachaud/freelancer-theme
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "your keywords, separated by commas"
-skills: "Web Developer - Graphic Artist - User Experience Designer"
-meta_author: LastName FirstName
+description: "This is the website of Education Frontiers, a professional German as foreign language institute, located in Bayreuth, Germany."
+keywords: "Education Frotniers, Learn German, Bayreuth, Rhethoriktraining, Universität, Coaching"
+skills: "Building Futures in Bayreuth and Germany"
+meta_author: Lutz Erik
 
 # Google webmaster tools
 google_verify:
@@ -25,38 +25,32 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 18bc9c #80B3FF
-  primary-rgb: "24,288,156" #"128,179,255"
+  primary: 579aeb # 18bc9c #80B3FF
+  primary-rgb: "87,154,235" #"128,179,255"
   secondary: 2c3e50 #FD6E8A
   secondary-dark: 233140 #A2122F
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
+  copyright: Erik Lutz
   location: Location
-  social: Around the Web
+  social: Follow us on
   credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
+  - title: linkedin
+    url: https://de.linkedin.com/in/erik-vinzenz-lutz-baa3421b3
+  - title: instagram
+    url: https://instagram.com
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: Wilhelmsplatz 9
+  - line: 95444 Bayreuth
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: This website was created using a template from <a href="jeromelachaud/freelancer-theme:master">here</a>.
 
 # Build settings
 markdown: kramdown
