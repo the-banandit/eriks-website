@@ -1,0 +1,40 @@
+<div class="slideshow">
+  <div class="slides">
+    {% for comment in site.data.comments.comments %}
+    <div class="slide">
+      <span class="quote">“</span>
+        <p class="comment">{{ comment.comment }}</p>
+      <span class="quote">”</span>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+<script>
+  let slideIndex = 0; // Start with the first slide
+  showSlides(); // Initial call to show the first slide
+
+  function showSlides() {
+    let slides = document.getElementsByClassName("slide");
+    let fadeDuration = 1000; // Duration of the fade effect in milliseconds
+    let visibleDuration = 3000; // How long to display the slide fully visible
+
+    for (let i = 0; i < slides.length; i++) {
+      slides[i].style.opacity = "0"; // Set all slides to transparent
+    }
+
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1} // Loop back to the first slide
+
+    slides[slideIndex-1].style.opacity = "1"; // Make the current slide fully visible
+
+    // Set a timeout to hide the slide just before the next call
+    setTimeout(() => {
+      slides[slideIndex-1].style.opacity = "0";
+    }, visibleDuration + fadeDuration);
+
+    setTimeout(showSlides, visibleDuration + 2 * fadeDuration); // Change slide at the end of the total duration
+  }
+</script>
+
+

@@ -1,11 +1,14 @@
 # Site settings
 title: Education Frontiers
 email: contact@education-frontiers.com 
-url: https://github.com/jeromelachaud/freelancer-theme
+url: https://education-frontiers.com
+baseurl: /
 description: "This is the website of Education Frontiers, a professional German as foreign language institute, located in Bayreuth, Germany."
 keywords: "Education Frotniers, Learn German, Bayreuth, Rhethoriktraining, Universität, Coaching"
-skills: "Building Futures in Bayreuth and Germany"
+skills: "Building Futures in Germany"
 meta_author: Lutz Erik
+favicon: ./img/logo-blue.ico
+
 
 # Google webmaster tools
 google_verify:
@@ -21,7 +24,7 @@ contact: static
 
 # If you use disqus you need disqus shortname
 # https://help.disqus.com/customer/portal/articles/466208
-disqus_shortname: myshortname
+disqus_shortname: erik
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -35,7 +38,7 @@ footer:
   copyright: Erik Lutz
   location: Location
   social: Follow us on
-  credits: Credits
+  infos: Infos
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -43,14 +46,17 @@ social:
     url: https://de.linkedin.com/in/erik-vinzenz-lutz-baa3421b3
   - title: instagram
     url: https://instagram.com
+  - title: whatsapp
+    url: tel:+49 163 4075936
 
 # Postal address (add as many lines as necessary)
 address:
   - line: Wilhelmsplatz 9
   - line: 95444 Bayreuth
+  - line: +49 163 4075936
 
 # Credits content
-credits: This website was created using a template from <a href="jeromelachaud/freelancer-theme:master">here</a>.
+infos: Here you can find the <a href="/impressum/">impressum</a> and our <a href="/privacy-policy/">privacy policy</a>.
 
 # Build settings
 markdown: kramdown

@@ -1,4 +1,7 @@
+<!DOCTYPE html>
+<html>
 <head>
+    <base href="{{ site.url }}{{ site.baseurl }}/"> 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>{{ site.title }}</title>
@@ -34,3 +37,19 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
+
+<body id="page-top" class="index">
+  {% include nav.html %}
+
+  <!-- Content Area -->
+  <div class="container">
+    <div style="height: 100px; width: 100%;"></div> 
+    {{ content }}
+    <div style="height: 100px; width: 100%;"></div> <!-- Creates a vertical space of 50px -->
+  </div>
+
+
+  {% include footer.html %}
+</body>
+
+</html>
