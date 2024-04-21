@@ -2,5 +2,5 @@
 
 ## TODOs Erik
 
-[] Insta-Account verlinken
-[] Formspree verknüpfen
+[ ] Insta-Account verlinken
+[ ] Formspree verknüpfen
